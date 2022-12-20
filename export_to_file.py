@@ -8,7 +8,7 @@ def export_csv():
      
 
     file_csv = "bd_csv_export.csv" 
-    '''создали путь и туда будем выгружать'''
+    '''создали путь и имя файла и туда будем выгружать'''
    
 
     with open(file_csv,"w", encoding='UTF-8', newline="") as file: 
